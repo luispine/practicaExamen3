@@ -1,7 +1,7 @@
 import { Formula } from "./formula.component";
 
 describe('Formula', () => {
-  it('should return 10 with base 5 and altura 4', () => {
+  it('should retur 10 with base 5 and altura 4', () => {
     expect(Formula(5, 4)).toBe(10);
   });
   it('should return 20 with base 10 and altura 4', () => {
